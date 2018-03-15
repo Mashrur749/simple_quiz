@@ -36,7 +36,7 @@ nextQ.onclick = function(){
     if(currQuestion == totQustion){
         quizContainer.style.display = "none";
         result.style.display = "block";
-        result.innerHTML = "Your total score is " + score + " <br>Out of 100";
+        result.innerHTML = "Your total score is: " + score + " <br>Out of 100";
         return;
     }
     loadQ(currQuestion);
