@@ -9,8 +9,6 @@ body{
 }
 
 #quizContainer{
-    height:60%;
-    width: 80%;
     position: absolute;
     margin: 7% 10%;
     background:rgba(51, 104, 65,.5);
@@ -55,7 +53,7 @@ h1{
 
 #nextQ{
     background-color: rgba(35, 73, 45,.8);
-    border:0;
+    border: 0;
     border-radius: 65px;
     color: rgb(234, 247, 235);
     float: right;
